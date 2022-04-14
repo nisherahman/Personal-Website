@@ -14,8 +14,8 @@ extra small device satrts
     }
     .navbar .navbar-toggler {
         border-color: #fff;
-        margin-left: 264px;
-        margin-top: -28px;
+        margin-left: 276px;
+        margin-top: -26px;
         margin-bottom: 12px !important;
     }
     .navbar .navbar-toggler i{
@@ -216,7 +216,7 @@ extra small device satrts
     #portfolio .gallery-item {
         margin-top: 40px;
         margin-bottom: -16px !important;
-        width: 130%;
+        width: 116%;
         margin-left: -12px;
     }
     #portfolio .gallery-item:hover .gl-overlay .link{
