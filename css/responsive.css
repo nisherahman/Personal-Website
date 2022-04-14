@@ -1,0 +1,1842 @@
+/*=========================
+extra small device satrts
+==========================*/
+@media(max-width:575px){
+    /*====================
+       nav part starts
+    =======================*/
+    .navbar .navbar-brand {
+        padding:0 15px !important;
+    }
+    .navbar .navbar-brand img {
+        margin-left: -15px;
+        margin-top: 11px;
+    }
+    .navbar .navbar-toggler {
+        border-color: #fff;
+        margin-left: 264px;
+        margin-top: -28px;
+        margin-bottom: 12px !important;
+    }
+    .navbar .navbar-toggler i{
+        color:#fff;
+    }
+    .navbar-light .navbar-nav .nav-item {
+        margin-top: 12px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0 16px;
+        line-height: 20px;
+        font-size: 15px;
+    }   
+    .navbar-light .navbar-nav .nav-link:last-of-type{
+        padding-bottom:9px !important;
+    }
+    .nav-fix{
+        background:rgba(220, 150, 90,0.8);
+    }
+    /*====================
+       nav part ends
+    =======================*/
+
+    /*====================
+       banner part starts
+    =======================*/
+    #banner .banner-item {
+        padding-top: 228px;
+        padding-bottom: 117px !important;
+    }
+    #banner .banner-item h3 {
+        font-size: 27px;
+    }
+    #banner .bg2 .banner-image img {
+        display: none;
+    }
+    #banner .bg1 .banner-text h1{
+        font-size:28px;
+    }
+    #banner .banner-item .btn{
+        font-size: 14px;
+    }
+    #banner .bg2 {
+        padding-top: 185px;
+        padding-bottom: 110px !important;
+    }
+    #banner  .bg2 .banner-text h1{
+        font-size:28px;
+        margin-top: -16px;
+    }
+    #banner  .bg2 .banner-text p{
+        font-size: 13px;
+    }
+    #banner .banner-item .btn {
+        font-size: 13px;
+    }
+    #banner .bg3 {
+        padding-top: 207px;
+        padding-bottom: 108px !important;
+    }
+    #banner  .bg3 .banner-text h1{
+        font-size:28px;
+        margin-top: -16px;
+    }
+    #banner  .bg3 .banner-text p{
+        font-size: 13px;
+    }
+    #banner .banner-item .btn {
+        font-size: 13px;
+    }
+    /*====================
+       banner part ends
+    =======================*/
+
+    /*====================
+       about part starts
+    =======================*/
+    #about .about-img::before {
+       display:none;
+    }
+    #about .about-main .about-img img {
+        width: 234%;
+        margin-top: 183px;
+        margin-left: 36px;
+    }
+    #about .about-main .about-text {
+        margin-top: -90px;
+
+    }
+    #about .about-main .about-text h4 {
+        font-size: 35px;
+        margin-left: -37px;
+    }
+    #about .about-main .about-text .text {
+        margin-left: -84px;
+    }
+    #about .about-main .about-text .text h4 {
+        font-size: 25px;
+        margin-top: 443px;
+        margin-left: 29px;
+    }
+    #about .about-main .about-text .text p {
+        padding-right: 14px;
+        margin-bottom: 20px !important;
+    }
+    #about .about-main .about-text .info-item p {
+        font-size: 15px;
+    }
+    #about .about-main .about-text .info-item p strong {
+        font-size: 14px;
+    }
+    #about .about-main .about-text .info-item {
+        margin-left: -55px;
+    }
+    #about .about-main .about-text .btn {
+        margin-left: -55px;
+        font-size: 15px;
+    }
+    #about .about-main .about-text h4::after,
+    #service .service-head h4::after,
+    #skill .skill-head h4::after,
+    #portfolio .portfolio-head h4::after,
+    #testimonial .testimonial-head h4::after,
+    #contact .contact-head h4::after
+    {
+       display:none;
+    }
+    /*====================
+      about part ends
+    =======================*/
+
+    /*======================
+      service  part starts
+    =======================*/
+    #service .service-head h4 {
+        font-size: 35px;
+        padding-top: 50px;
+    }
+    #service .service-head p {
+        margin-top: 20px;
+        padding: 11px;
+        font-size: 16px;
+        margin-bottom: 35px !important;
+    }
+    /*====================
+      service  part ends
+    =======================*/
+
+    /*======================
+      skills  part starts
+    =======================*/
+    #skill {
+        padding-top: 48px;
+        padding-bottom: 46px !important;
+    }
+    #skill .skill-head h4{
+        font-size: 35px;
+    }
+    #skill .skill-text h4{
+        font-size: 28px;
+    }
+    #skill .skill-text p {
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 25px;
+        padding-right: 44px;
+    }
+    #skill .skill-content h4 {
+        margin-bottom: 42px !important;
+        margin-top: 30px;
+    }
+    /*=====================
+     skills  part ends
+    =======================*/
+
+    /*=====================
+      portfolio part starts
+    =======================*/
+    #portfolio {
+        padding-bottom: 46px !important;
+    }
+    #portfolio .portfolio-head {
+        padding-top: 50px;
+    }
+    #portfolio .portfolio-head p {
+        margin-top: 30px;
+        padding:0px;
+        margin-bottom: 45px !important;
+    }
+    #portfolio .gallery-menu ul li {
+        margin-right: 7px;
+        padding: 15px 0px;
+        font-size: 14px;
+    }
+    #portfolio .gallery-menu ul li.active {
+        padding: 15px 3px;
+    }
+    #portfolio .gallery-item {
+        margin-top: 40px;
+        margin-bottom: -16px !important;
+        width: 130%;
+        margin-left: -12px;
+    }
+    #portfolio .gallery-item:hover .gl-overlay .link{
+        margin-left: 120px;
+    }
+    /*====================
+     portfolio  part ends
+    =======================*/
+
+    /*====================
+     video  part starts
+    =======================*/
+    #video{
+        height: 400px;
+    }
+    #video .video-icon {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        margin-top: 12px;
+        margin-left: 120px;
+    }
+    #video .video-icon i {
+        font-size: 25px;
+        line-height: 60px;
+    }
+    #video h3 {
+        margin-top: 50px;
+        margin-left: 46px;
+        line-height: 34px;
+        font-size: 16px;
+    }
+    /*======================
+     video   part ends
+    =======================*/
+
+    /*========================
+     testimonial part starts
+    =========================*/
+    #testimonial{
+        padding-bottom: 46px !important;
+    }
+    #testimonial .testimonial-head {
+        padding-top: 50px;
+    }
+    #testimonial .testimonial-head p {
+        margin-top: 25px;
+        margin-bottom: 40px !important;
+        padding: 0 58px;
+    }
+    #testimonial .testimonial-head h4{
+        font-size: 34px;
+    }
+    #testimonial .testimonial-item {
+        margin-right: 49px;
+        height: 387px;
+    }
+    #testimonial .testimonial-item .testimonial-img img{
+        width: 67% !important;
+    }
+    #testimonial .testimonial-item .testimonial-img::after {
+        width: 68%;
+        height: 99%;
+    }
+    #testimonial .testimonial-item .testimonial-text p {
+        margin-top:30px;
+        font-size: 14px
+    }
+    #testimonial .slick-dots{
+        bottom: -22px;
+    }
+    /*=======================
+    testimonial part ends
+    =========================*/
+
+    /*=======================
+     funfact part starts
+    =========================*/
+    #funfact {
+        padding-bottom: 20px !important;
+        padding-top: 30px;
+    }
+    #funfact .fun-item {
+        padding-top: 27px;
+        padding-bottom: 27px !important;
+        text-align: center;
+    }
+    #funfact .fun-item h4{
+        font-size: 30px;
+    }
+    #funfact .fun-item p{
+        font-size: 16px;
+    }
+    /*=======================
+     funfact  part ends
+    =========================*/
+
+    /*=======================
+     contact part starts
+    =========================*/
+    #contact{
+        padding-bottom: 46px !important;
+    }
+    #contact .contact-head {
+        padding-top: 50px;
+    }
+    #contact .contact-head p {
+        margin-top: 25px;
+        padding: 5px;
+        font-size: 16px;
+        margin-bottom: 40px !important;
+    }
+    #contact .contact-head h4{
+        font-size: 34px;
+    }
+    #contact .touch-item{
+        padding-left: 50px;
+    }
+    #contact .touch-item input{
+        width: 220px;
+    }
+    #contact .touch-item textarea {
+        width: 220px;
+        height: 115px;
+    }
+    #contact .touch-item button {
+        width: 220px;
+        height: 50px; 
+    }
+    /*=======================
+     contact  part ends
+    =========================*/
+
+    /*=====================
+     footer part starts
+    =======================*/
+    #footer {
+        margin-top: 17px;
+    }
+    #footer .social-icon {
+        text-align: center;
+    }
+    #footer .footer-text p{
+        margin-top: 15px;
+        margin-left: 23px;
+        font-size: 14px;
+    }
+    /*======================
+      footer  part ends
+    ========================*/
+}
+/*=========================
+extra small device ends
+==========================*/
+
+/*=========================
+ small device starts
+==========================*/
+/*========================
+ small device css starts
+=========================*/
+@media (min-width:576px) and (max-width:767px){
+    /*====================
+       nav part starts
+    =======================*/
+    .navbar .navbar-brand {
+        padding:0 15px !important;
+    }
+    .navbar .navbar-brand img {
+        margin-left: -15px;
+        margin-top: -12px;
+        width: 53%;
+    }
+    .navbar .navbar-toggler {
+        border-color: #fff;
+        margin-left: 256px;
+        margin-top: 8px;
+        margin-bottom: 12px !important;
+    }
+    .navbar .navbar-toggler i{
+        color:#fff;
+    }
+    /* .navbar-light .navbar-nav{
+        background:rgba(220, 150, 90,0.2);
+    } */
+    .navbar-light .navbar-nav .nav-item{
+        margin-top: 43px;
+    }
+    /*====================
+       nav part ends
+    =======================*/
+
+    /*====================
+       banner part starts
+    =======================*/
+    #banner .banner-item {
+        padding-top: 277px;
+        padding-bottom: 162px !important;
+    }
+    #banner .banner-item h3 {
+        font-size: 30px;
+        height:50px;
+    }
+    #banner .bg2 .banner-image img {
+        display: none;
+    }
+    #banner .bg1 .banner-text h1{
+        font-size:30px;
+        width: 276px;
+    }
+    #banner .banner-item .btn {
+        font-size: 14px;
+    }
+    #banner .bg2 {
+        padding-top: 195px;
+        padding-bottom: 137px !important;
+    }
+    #banner .bg2 .banner-text {
+        margin-top: 63px;
+    }
+    #banner  .bg2 .banner-text h1{
+        font-size:28px;
+        margin-top: -16px;
+    }
+    #banner .bg2 .banner-text p {
+        font-size: 15px;
+    }
+    #banner .banner-item .btn {
+        font-size: 14px;
+    }
+    #banner .bg3 {
+        padding-top: 201px;
+        padding-bottom: 143px !important;
+    }
+    #banner .bg3 .banner-text h1 {
+        font-size: 28px;
+        margin-top: 41px;
+        width: 276px;
+    }
+    #banner .bg3 .banner-text p {
+        font-size: 14px;
+    }
+    /*====================
+       banner part ends
+    =======================*/
+
+    /*====================
+       about part starts
+    =======================*/
+    #about .about-img::before {
+        display:none;
+    }
+    #about .about-main .about-img img {
+        width: 149%;
+        margin-top: 118px;
+        margin-left: 114px;
+    }
+    #about .about-main .about-text {
+        margin-top: -90px;
+ 
+    }
+    #about .about-main .about-text h4 {
+        font-size: 37px;
+        margin-left: -30px;
+    }
+
+    #about .about-main .about-text .text {
+        margin-left: -84px;
+    }
+    #about .about-main .about-text .text h4 {
+        font-size: 28px;
+        margin-top: 491px;
+        margin-left: 29px;
+    }
+    #about .about-main .about-text .text p {
+        padding-right: 54px;
+        margin-left: -82px;
+    }
+    #about .about-main .about-text .info-item p {
+        font-size: 17px;
+    }
+    #about .about-main .about-text .info-item p strong {
+        font-size: 17px;
+    }
+    #about .about-main .about-text .info-item {
+        margin-left: -55px;
+    }
+    #about .about-main .about-text .btn {
+        margin-left: -55px;
+        font-size: 16px;
+    }
+ 
+    #about .about-main .about-text h4::after,
+    #service .service-head h4::after,
+    #skill .skill-head h4::after,
+    #portfolio .portfolio-head h4::after,
+    #testimonial .testimonial-head h4::after,
+    #contact .contact-head h4::after
+    {
+        display:none;
+    }
+    /*====================
+       about part ends
+    =======================*/
+
+    /*======================
+      service  part starts
+    =======================*/
+    #service .service-head h4 {
+        font-size: 35px;
+        padding-top: 50px;
+    }
+    #service .service-head p {
+        margin-top: 20px;
+        padding: 11px;
+        font-size: 16px;
+        margin-bottom: 35px !important;
+    }
+    /*====================
+      service  part ends
+    =======================*/
+
+    /*======================
+      skills  part starts
+    =======================*/
+    #skill {
+        padding-top: 55px;
+        padding-bottom: 55px !important;
+    }
+    #skill .skill-head h4 {
+        font-size: 37px;
+    }
+    #skill .skill-text h4 {
+        font-size: 28px;
+        margin-top: -18px;
+    }
+    #skill .skill-text p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 16px;
+        padding-right: -9px;
+    }
+    #skill .skill-content h4 {
+        margin-bottom: 35px !important;
+        margin-top: 20px;
+    }
+    /*=====================
+     skills  part ends
+    =======================*/
+
+    /*=====================
+      portfolio part starts
+    =======================*/
+    #portfolio {
+        padding-bottom: 65px !important;
+    }
+    #portfolio .portfolio-head {
+        padding-top: 50px;
+    }
+    #portfolio .portfolio-head p {
+        font-size: 17px;
+        padding: 0px 55px;
+        margin-bottom: 40px !important;
+    }
+    #portfolio .gallery-menu ul li {
+        padding: 17px 12px;
+        font-size: 14px;
+    }
+    #portfolio .gallery-menu ul li.active {
+        padding: 18px 12px;
+    }
+    #portfolio .gallery-item {
+        margin-top: 40px;
+        margin-bottom: -16px !important;
+        width: 446px;
+        margin-left: 33px;
+    }
+    /*====================
+     portfolio  part ends
+    =======================*/
+
+    /*====================
+     video  part starts
+    =======================*/
+    #video{
+        height: 400px;
+    }
+    #video .video-icon {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        margin-top: -17px;
+        margin-left: 222px;
+    }
+    #video .video-icon i {
+        font-size: 25px;
+        line-height: 60px;
+    }
+    #video h3 {
+        margin-top: 50px;
+        margin-left: 44px;
+        line-height: 32px;
+        font-size: 17px;
+    }
+    /*======================
+     video   part ends
+    =======================*/
+
+    /*========================
+     testimonial part starts
+    =========================*/
+    #testimonial{
+        padding-bottom: 46px !important;
+    }
+    #testimonial .testimonial-head {
+        padding-top: 50px;
+    }
+    #testimonial .testimonial-head p {
+        margin-top: 22px;
+        padding: 5px;
+        margin-bottom: 40px !important;
+    }
+    #testimonial .testimonial-head h4 {
+        font-size: 36px;
+    }
+    #testimonial .testimonial-item {
+        margin-right: 49px;
+        height: 223px;
+    }
+    #testimonial .testimonial-item .testimonial-img img {
+        width: 60% !important;
+    }
+    #testimonial .testimonial-item .testimonial-img::after {
+        width: 60%;
+        top: 18px;
+        left: 22px;
+    }
+    #testimonial .testimonial-item .testimonial-text p {
+        margin-top: 0px;
+        font-size: 14px;
+    }
+    #testimonial .slick-dots {
+        bottom: -31px;
+    }
+    /*=======================
+    testimonial part ends
+    =========================*/
+
+    /*=======================
+     funfact part starts
+    =========================*/
+    #funfact {
+        padding-bottom: 44px !important;
+        padding-top: 44px;
+    }
+    #funfact .fun-item {
+        padding-top: 27px;
+        padding-bottom: 27px !important;
+        text-align: center;
+    }
+    #funfact .fun-item h4{
+        font-size: 30px;
+    }
+    #funfact .fun-item p{
+        font-size: 16px;
+    }
+    /*=======================
+     funfact  part ends
+    =========================*/
+
+    /*=======================
+     contact part starts
+    =========================*/
+    #contact {
+        padding-bottom: 63px !important;
+    }
+    #contact .contact-head {
+        padding-top: 58px;
+    }
+    #contact .contact-head p {
+        margin-top: 22px;
+        padding: 5px;
+        font-size: 16px;
+        margin-bottom: 55px !important;
+    }
+    #contact .contact-head h4 {
+        font-size: 36px;
+    }
+    #contact .touch-item{
+        padding-left: 50px;
+    }
+    #contact .touch-item::before {
+        width: 330px;
+    }
+    #contact .touch-item input {
+        width: 414px;
+    }
+    #contact .touch-item textarea {
+        width: 414px;
+        height: 115px;
+    }
+    #contact .touch-item button {
+        width: 414px;
+        height: 50px; 
+    }
+    /*=======================
+     contact  part ends
+    =========================*/
+
+    /*=====================
+     footer part starts
+    =======================*/
+    #footer .social-icon {
+        text-align: center;
+    }
+    #footer .footer-text p {
+        margin-top: 24px;
+        margin-left: 76px;
+        font-size: 14px;
+    }
+    /*======================
+      footer  part ends
+    ========================*/
+}
+/*=========================
+ small device ends
+==========================*/
+
+/*========================
+ medium device css starts
+=========================*/
+@media (min-width:768px) and (max-width:991px){
+    /*====================
+       nav part starts
+    =======================*/
+    .navbar .navbar-brand {
+        padding:0 15px !important;
+    }
+    .navbar .navbar-brand img {
+        margin-left: -15px;
+        margin-top: -12px;
+        width: 53%;
+    }
+    .navbar .navbar-toggler {
+        border-color: #fff;
+        margin-left: 256px;
+        margin-top: 11px;
+        margin-bottom: 12px !important;
+    }
+    .navbar .navbar-toggler i{
+        color:#fff;
+    }
+    /* .navbar-light .navbar-nav{
+        background:rgba(220, 150, 90,0.2);
+    } */
+    .navbar-light .navbar-nav .nav-item{
+        margin-top: 43px;
+    }
+    /*====================
+       nav part ends
+    =======================*/
+
+    /*====================
+       banner part starts
+    =======================*/
+    #banner .banner-item {
+        padding-top: 230px;
+        padding-bottom: 129px !important;
+    }
+    #banner .banner-item h3 {
+        font-size: 32px;
+        height:50px;
+    }
+    #banner .bg1 .banner-text h1 {
+        font-size: 32px;
+    }
+    #banner .bg2 {
+        padding-top: 203px;
+        padding-bottom: 118px !important;
+    }
+    #banner .bg2 .banner-image img {
+        width: 80%;
+        margin-left: -34px;
+        margin-top: -21px;
+    }
+    #banner .bg2 .banner-text {
+        margin-top: 6px;
+    }
+    #banner  .bg2 .banner-text h1{
+        font-size:32px;
+        margin-top: -16px;
+    }
+    #banner .bg2 .banner-text p {
+        font-size: 16px;
+    }
+    #banner .banner-item .btn {
+        font-size: 16px;
+    }
+    #banner .bg3 {
+        padding-top: 214px;
+        padding-bottom: 113px !important;
+    }
+    #banner  .bg3 .banner-text h1{
+        font-size:32px;
+        margin-top: -16px;
+    }
+    #banner  .bg3 .banner-text p{
+        font-size: 16px;
+    }
+    /*====================
+       banner part ends
+    =======================*/
+
+    /*====================
+       about part starts
+    =======================*/
+    #about .about-main .about-img img {
+        width: 77%;
+        margin-top: -54px;
+        margin-left: 29px;
+    }
+    #about .about-img::before {
+        width: 262px;
+        height: 747px; 
+    }
+    #about .about-main .about-text h4 {
+        font-size: 36px;
+    }
+    #about .about-main .about-text .text p {
+        padding-right: 41px;
+        margin-bottom: 18px !important;
+    }
+    #about .about-main .about-text .info-item p {
+        margin-bottom: 3px !important;
+        font-size: 18px;
+    }
+    #about .about-main .about-text .info-item p strong {
+        font-size: 18px;
+    }
+    #about .about-main .about-text .btn{
+        font-size: 16px;
+    }
+    /*====================
+       about part ends
+    =======================*/
+
+    /*======================
+       service part starts
+    =======================*/
+    #service .service-head h4 {
+        font-size: 36px;
+        padding-top: 50px;
+    }
+    #service .service-head h4::after {
+        left: 315px;
+    }
+    #service .service-head p {
+        margin-top: 30px;
+        font-size: 17px;
+        margin-bottom: 35px !important;
+        padding: 0 104px;
+    }
+    /*=====================
+       service part ends
+    =======================*/
+
+    /*======================
+      skills  part starts
+    =======================*/
+    #skill {
+        padding-top: 48px;
+        padding-bottom: 46px !important;
+    }
+    #skill .skill-head h4{
+        font-size: 35px;
+    }
+    #skill .skill-text h4 {
+        font-size: 28px;
+        margin-top: 33px;
+    }
+    #skill .skill-head h4::after {
+        left: 344px;
+    }
+    #skill .skill-text p {
+        font-size: 17px;
+        line-height: 25px;
+        margin-top: 30px;
+        padding-right: 70px;
+    }
+    #skill .skill-content h4 {
+        margin-bottom: 42px !important;
+        margin-top: 30px;
+    }
+    /*=====================
+     skills  part ends
+    =======================*/
+
+    /*=====================
+      portfolio part starts
+    =======================*/
+    #portfolio {
+        padding-bottom: 60px !important;
+    }
+    #portfolio .portfolio-head {
+        padding-top: 50px;
+    }
+    #portfolio .portfolio-head p {
+        margin-top: 30px;
+        font-size: 17px;
+        padding: 0 95px;
+        margin-bottom: 30px !important;
+    }
+    #portfolio .portfolio-head h4{
+        font-size:36px;
+    }
+    #portfolio .portfolio-head h4::after {
+        left: 314px;
+    }
+    
+    #portfolio .gallery-menu ul li {
+        padding: 17px 12px;
+        font-size: 14px;
+    }
+    #portfolio .gallery-menu ul li.active {
+        padding: 18px 12px;
+    }
+    #portfolio .gallery-item {
+        margin-top: 40px;
+        margin-bottom: -16px !important;
+        margin-left: 33px;
+    }
+    /*====================
+     portfolio  part ends
+    =======================*/
+
+    /*====================
+     video  part starts
+    =======================*/
+    #video{
+        height: 400px;
+    }
+    #video .video-icon {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        margin-top: 12px;
+        margin-left: 105px;
+    }
+    #video .video-icon i {
+        font-size: 25px;
+        line-height: 60px;
+    }
+    #video h3 {
+        margin-top: 49px;
+        margin-left: 26px;
+        line-height: 33px;
+        font-size: 22px;
+    }
+    /*======================
+     video   part ends
+    =======================*/
+
+    /*========================
+     testimonial part starts
+    =========================*/
+    #testimonial{
+        padding-bottom: 46px !important;
+    }
+    #testimonial .testimonial-head {
+        padding-top: 50px;
+    }
+    #testimonial .testimonial-head p {
+        margin-top: 22px;
+        padding: 5px;
+        margin-bottom: 40px !important;
+    }
+    #testimonial .testimonial-head h4 {
+        font-size: 36px;
+    }
+    #testimonial .testimonial-item {
+        margin-right: 49px;
+        height: 223px;
+    }
+    #testimonial .testimonial-item .testimonial-img img {
+        width: 114% !important;
+    }
+    #testimonial .testimonial-item .testimonial-img::after {
+        width: 90%;
+        top: 14px;
+        left: 19px;
+    }
+    #testimonial .testimonial-head h4::after {
+        left: 280px;
+        bottom: -3px;
+    }
+    #testimonial .testimonial-item .testimonial-text p {
+        margin-top: 0px;
+        font-size: 14px;
+    }
+    /* #testimonial .slick-dots {
+        top: 31px;
+    } */
+    /*=======================
+    testimonial part ends
+    =========================*/
+
+    /*=======================
+     funfact part starts
+    =========================*/
+    #funfact {
+        padding-bottom: 44px !important;
+        padding-top: 44px;
+    }
+    #funfact .fun-item {
+        padding-top: 27px;
+        padding-bottom: 27px !important;
+        text-align: center;
+    }
+    #funfact .fun-item h4{
+        font-size: 30px;
+    }
+    #funfact .fun-item p{
+        font-size: 16px;
+    }
+    /*=======================
+     funfact  part ends
+    =========================*/
+
+    /*=======================
+     contact part starts
+    =========================*/
+    #contact {
+        padding-bottom: 63px !important;
+    }
+    #contact .contact-head {
+        padding-top: 58px;
+    }
+    #contact .contact-head p {
+        margin-top: 22px;
+        font-size: 17px;
+        margin-bottom: 55px !important;
+        padding: 0 105px;
+    }
+    #contact .contact-head h4 {
+        font-size: 36px;
+    }
+    #contact .contact-head h4::after {
+        left: 292px
+    }
+    #contact .touch-item{
+        padding-left: 50px;
+    }
+    #contact .touch-item::before {
+        width: 330px;
+    }
+    #contact .touch-item input {
+        width: 414px;
+    }
+    #contact .touch-item textarea {
+        width: 414px;
+        height: 115px;
+    }
+    #contact .touch-item button {
+        width: 414px;
+        height: 50px; 
+    }
+    /*=======================
+     contact  part ends
+    =========================*/
+
+    /*=====================
+     footer part starts
+    =======================*/
+    #footer .social-icon {
+        text-align: center;
+    }
+    #footer .footer-text p {
+        margin-top: 24px;
+        margin-left: 171px;
+        font-size: 14px;
+    }
+    /*======================
+      footer  part ends
+    ========================*/
+}
+/*========================
+ medium device css ends
+=========================*/
+
+/*=====================
+large  device starts
+=======================*/
+@media(min-width:992px) and (max-width:1199px) {
+    /*====================
+       nav part starts
+    =======================*/
+    .navbar .navbar-brand {
+        padding:0 15px !important;
+    }
+    .navbar .navbar-brand img{
+        margin-left: -15px;
+    }
+    .navbar .navbar-toggler {
+        border-color: #fff;
+        margin-left: 256px;
+        margin-top: -30px;
+    }
+    .navbar .navbar-toggler i{
+        color:#fff;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 18px;
+        padding: 0 16px;
+    }
+    /* .navbar-light .navbar-nav .nav-link{
+        margin-top: 10px;
+        margin-left: 2px;
+        width: 40%;
+    } */
+    /*====================
+       nav part ends
+    =======================*/
+
+    /*====================
+       banner part starts
+    =======================*/
+    #banner .banner-item {
+        padding-top: 242px;
+        padding-bottom: 145px !important;
+    }
+    #banner .banner-item h3 {
+        font-size: 34px;
+        height:30px;
+    }
+    #banner .bg1 .banner-text h1 {
+        font-size: 32px;
+    }
+    #banner .bg2 {
+        padding-top: 211px;
+        padding-bottom: 142px !important;
+    }
+    #banner .bg2 .banner-image img {
+        width: 80%;
+        margin-left: -34px;
+        margin-top: -21px;
+    }
+    #banner .bg2 .banner-text {
+        margin-top: 6px;
+    }
+    #banner  .bg2 .banner-text h1{
+        font-size:32px;
+        margin-top: -16px;
+    }
+    #banner .bg2 .banner-text p {
+        font-size: 16px;
+    }
+    #banner .banner-item .btn {
+        font-size: 16px;
+        margin-top: 65px;
+    }
+    #banner .bg3 {
+        padding-top: 215px;
+        padding-bottom: 144px !important;
+    }
+    #banner  .bg3 .banner-text h1{
+        font-size:32px;
+        margin-top: -16px;
+    }
+    #banner  .bg3 .banner-text p{
+        font-size: 16px;
+    }
+    /*====================
+       banner part ends
+    =======================*/
+
+    /*====================
+       about part starts
+    =======================*/
+    #about .about-main .about-img img {
+        width: 77%;
+        margin-top: -54px;
+        margin-left: 29px;
+    }
+    #about .about-img::before {
+        width: 262px;
+        height: 747px; 
+    }
+    #about .about-main .about-text h4 {
+        font-size: 36px;
+    }
+    #about .about-main .about-text .text p {
+        padding-right: 41px;
+        margin-bottom: 18px !important;
+    }
+    #about .about-main .about-text .info-item p {
+        margin-bottom: 3px !important;
+        font-size: 18px;
+    }
+    #about .about-main .about-text .info-item p strong {
+        font-size: 18px;
+    }
+    #about .about-main .about-text .btn{
+        font-size: 16px;
+    }
+    /*====================
+       about part ends
+    =======================*/
+
+    /*======================
+       service part starts
+    =======================*/
+    #service .service-head h4 {
+        font-size: 36px;
+        padding-top: 50px;
+    }
+    #service .service-head h4::after {
+        left: 425px;
+        bottom: 0px;
+    }
+    #service .service-head p {
+        margin-top: 30px;
+        font-size: 17px;
+        margin-bottom: 35px !important;
+        padding: 0 221px;
+    }
+    /*=====================
+       service part ends
+    =======================*/
+
+    /*======================
+      skills  part starts
+    =======================*/
+    #skill {
+        padding-top: 48px;
+        padding-bottom: 46px !important;
+    }
+    #skill .skill-head {
+        padding-bottom: 50px !important;
+    }
+    #skill .skill-head h4{
+        font-size: 35px;
+    }
+    #skill .skill-text h4 {
+        font-size: 28px;
+        margin-top: 33px;
+    }
+    #skill .skill-head h4::after {
+        left: 456px;
+        bottom: -3px;
+    }
+    #skill .skill-text p {
+        font-size: 17px;
+        line-height: 25px;
+        margin-top: 30px;
+        padding-right: 70px;
+    }
+    #skill .skill-content h4 {
+        margin-bottom: 42px !important;
+        margin-top: 30px;
+    }
+    /*=====================
+     skills  part ends
+    =======================*/
+
+    /*=====================
+      portfolio part starts
+    =======================*/
+    #portfolio {
+        padding-bottom: 60px !important;
+    }
+    #portfolio .portfolio-head {
+        padding-top: 50px;
+    }
+    #portfolio .portfolio-head p {
+        margin-top: 35px;
+        font-size: 17px;
+        padding: 0 200px;
+        margin-bottom: 50px !important;
+    }
+    #portfolio .portfolio-head h4{
+        font-size:36px;
+    }
+    #portfolio .portfolio-head h4::after {
+        left: 426px;
+        bottom: -3px;
+    }
+    #portfolio .gallery-menu ul li {
+        padding: 17px 26px;
+        font-size: 14px;
+    }
+    #portfolio .gallery-menu ul li.active {
+        padding: 18px 12px;
+    }
+    #portfolio .gallery-item {
+        margin-top: 70px;
+        margin-bottom: -16px !important;
+        margin-left: 33px;
+    }
+    #portfolio .gallery-item:hover .gl-overlay .link{
+        margin-left: 100px;
+    }
+    /*====================
+     portfolio  part ends
+    =======================*/
+
+    /*====================
+     video  part starts
+    =======================*/
+    #video{
+        height: 400px;
+    }
+    #video .video-icon {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        margin-top: 8px;
+        margin-left: 151px;
+    }
+    #video .video-icon i {
+        font-size: 25px;
+        line-height: 60px;
+    }
+    #video h3 {
+        margin-top: 49px;
+        margin-left: 26px;
+        line-height: 33px;
+        font-size: 22px;
+    }
+    /*======================
+     video   part ends
+    =======================*/
+
+    /*========================
+     testimonial part starts
+    =========================*/
+    #testimonial{
+        padding-bottom: 46px !important;
+    }
+    #testimonial .testimonial-head {
+        padding-top: 50px;
+    }
+    #testimonial .testimonial-head p {
+        margin-top: 22px;
+        padding: 14px;
+        margin-bottom: 74px !important;
+    }
+    #testimonial .testimonial-head h4 {
+        font-size: 36px;
+    }
+    #testimonial .testimonial-item {
+        margin-right: 49px;
+        height: 223px;
+    }
+    #testimonial .testimonial-item .testimonial-img img {
+        width: 114% !important;
+    }
+    #testimonial .testimonial-item .testimonial-img::after {
+        width: 90%;
+        top: 14px;
+        left: 19px;
+    }
+    #testimonial .testimonial-head h4::after {
+        left: 415px;
+        bottom: 1px;
+    }
+    #testimonial .testimonial-item .testimonial-text p {
+        margin-top: 0px;
+        font-size: 14px;
+    }
+    #testimonial .slick-dots {
+        top: 203px;
+    }
+    /*=======================
+    testimonial part ends
+    =========================*/
+
+    /*=======================
+     funfact part starts
+    =========================*/
+    #funfact {
+        padding-bottom: 44px !important;
+        padding-top: 44px;
+    }
+    #funfact .fun-item {
+        padding-top: 27px;
+        padding-bottom: 27px !important;
+        text-align: center;
+    }
+    #funfact .fun-item h4{
+        font-size: 30px;
+    }
+    #funfact .fun-item p{
+        font-size: 16px;
+    }
+    /*=======================
+     funfact  part ends
+    =========================*/
+
+    /*=======================
+     contact part starts
+    =========================*/
+    #contact {
+        padding-bottom: 63px !important;
+    }
+    #contact .contact-head {
+        padding-top: 58px;
+    }
+    #contact .contact-head p {
+        margin-top: 35px;
+        font-size: 17px;
+        margin-bottom: 65px !important;
+        padding: 0 200px;
+    }
+    #contact .contact-head h4 {
+        font-size: 36px;
+    }
+    #contact .contact-head h4::after {
+        left: 401px;
+        bottom: 4px;
+    }
+    #contact .touch-item{
+        padding-left: 50px;
+    }
+    #contact .touch-item::before {
+        width: 330px;
+    }
+    #contact .touch-item input {
+        width: 414px;
+    }
+    #contact .touch-item textarea {
+        width: 414px;
+        height: 115px;
+    }
+    #contact .touch-item button {
+        width: 414px;
+        height: 50px; 
+    }
+    /*=======================
+     contact  part ends
+    =========================*/
+
+    /*=====================
+     footer part starts
+    =======================*/
+    #footer .footer-text p {
+        font-size: 14px;
+    }
+    /*======================
+      footer  part ends
+    ========================*/
+}
+/*=====================
+large  device ends
+=======================*/
+
+/*===============================
+extra extra large  device starts
+=================================*/
+@media(min-width:1400px) {
+    /*====================
+       nav part starts
+    =======================*/
+    .navbar .navbar-brand {
+        padding:0 15px !important;
+    }
+    .navbar .navbar-brand img{
+        margin-left: -15px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 18px;
+        padding: 0 25px;
+    }
+    .navbar-light .navbar-nav .nav-item:last-child .nav-link {
+        margin-right: 71px;
+    }
+    /*=====================
+       nav part ends
+    =======================*/
+
+    /*======================
+       banner part starts
+    =======================*/
+    #banner .banner-item {
+        padding-top: 281px;
+        padding-bottom: 186px !important;
+    }
+    #banner .banner-item h3 {
+        font-size: 36px;
+        height:50px;
+    }
+    #banner .bg1 .banner-text h1 {
+        font-size: 34px;
+    }
+    #banner .bg2 {
+        padding-top: 205px;
+        padding-bottom: 121px !important;
+    }
+    #banner .bg2 .banner-image img {
+        width: 80%;
+        margin-left: -64px;
+        margin-top: -7px;
+    }
+    #banner .bg2 .banner-text {
+        margin-top: 6px;
+        margin-right: 73px;
+    }
+    #banner .bg2 .banner-text h1 {
+        font-size: 32px;
+        margin-top: 37px;
+    }
+    #banner .bg2 .banner-text p {
+        font-size: 16px;
+        padding-left: 130px;
+        margin-top: 30px;
+    }
+    #banner .banner-item .btn {
+        font-size: 16px;
+    }
+    #banner .bg3 {
+        padding-top: 292px;
+        padding-bottom: 190px !important;
+    }
+    #banner .bg3 .banner-text h1 {
+        font-size: 32px;
+        margin-top: -36px;
+    }
+    #banner .bg3 .banner-text p {
+        font-size: 16px;
+        padding-right: 130px;
+        margin-top: 30px;
+    }
+    /*====================
+       banner part ends
+    =======================*/
+
+    /*====================
+       about part starts
+    =======================*/
+    #about .about-main .about-img img {
+        width: 60%;
+        margin-top: -56px;
+        margin-left: 120px;
+    }
+    #about .about-img::before {
+        width: 262px;
+        height: 747px; 
+    }
+    #about .about-main .about-text h4 {
+        font-size: 38px;
+    }
+    #about .about-main .about-text .text p {
+        padding-right: -1px;
+        margin-bottom: 18px !important;
+    }
+    #about .about-main .about-text .info-item p {
+        margin-bottom: 6px !important;
+        font-size: 19px;
+    }
+    #about .about-main .about-text .info-item p strong {
+        font-size: 19px;
+    }
+    #about .about-main .about-text .btn {
+        font-size: 17px;
+    }
+    /*====================
+       about part ends
+    =======================*/
+
+    /*======================
+       service part starts
+    =======================*/
+    #service {
+        padding-bottom: 55px !important;
+    }
+    #service .service-head h4 {
+        font-size: 38px;
+        padding-top: 50px;
+    }
+    #service .service-head h4::after {
+        left: 624px;
+    }
+    #service .service-head p {
+        margin-top: 30px;
+        font-size: 17px;
+        margin-bottom: 45px !important;
+        padding: 0 398px;
+    }
+    #service .service-item {
+        margin-right: 0px;
+        width: 370px;
+        margin-bottom: 35px !important;
+    }
+    #service .service-item p {
+        padding-right: 25px;
+    }
+    /*=====================
+       service part ends
+    =======================*/
+
+    /*======================
+      skills  part starts
+    =======================*/
+    #skill {
+        padding-top: 55px;
+        padding-bottom: 55px !important;
+    }
+    #skill .skill-head {
+        padding-bottom: 50px !important;
+    }
+    #skill .skill-head h4{
+        font-size: 36px;
+    }
+    #skill .skill-text h4 {
+        font-size: 28px;
+        margin-top: 33px;
+    }
+    #skill .skill-head h4::after {
+        left: 658px;
+    }
+    #skill .skill-text p {
+        font-size: 17px;
+        line-height: 25px;
+        margin-top: 30px;
+        padding-right: 70px;
+    }
+    #skill .skill-content h4 {
+        margin-bottom: 42px !important;
+        margin-top: 30px;
+    }
+    /*=====================
+     skills  part ends
+    =======================*/
+
+    /*=====================
+      portfolio part starts
+    =======================*/
+    #portfolio {
+        padding-bottom: 60px !important;
+    }
+    #portfolio .portfolio-head {
+        padding-top: 50px;
+    }
+    #portfolio .portfolio-head p {
+        margin-top: 49px;
+        font-size: 17px;
+        padding: 0 424px;
+        margin-bottom: 62px !important;
+    }
+    #portfolio .portfolio-head h4{
+        font-size:36px;
+    }
+    #portfolio .portfolio-head h4::after {
+        left: 629px;
+    }
+    #portfolio .gallery-menu ul li {
+        padding: 17px 33px;
+        font-size: 14px;
+    }
+    #portfolio .gallery-menu ul li.active {
+        padding: 18px 12px;
+    }
+    #portfolio .gallery-item {
+        margin-top: 70px;
+        margin-bottom: -16px !important;
+        margin-left: 33px;
+    }
+    #portfolio .gallery-item:hover .gl-overlay .link{
+        margin-left: 155px;
+    }
+    /*====================
+     portfolio  part ends
+    =======================*/
+
+    /*====================
+     video  part starts
+    =======================*/
+    #video{
+        height: 400px;
+    }
+    #video .video-icon {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        margin-top: 8px;
+        margin-left: 271px;
+    }
+    #video .video-icon i {
+        font-size: 25px;
+        line-height: 60px;
+    }
+    #video h3 {
+        margin-top: 49px;
+        margin-left: 8px;
+        line-height: 33px;
+        font-size: 22px;
+    }
+    /*======================
+     video   part ends
+    =======================*/
+
+    /*========================
+     testimonial part starts
+    =========================*/
+    #testimonial{
+        padding-bottom: 46px !important;
+    }
+    #testimonial .testimonial-head {
+        padding-top: 50px;
+    }
+    #testimonial .testimonial-head p {
+        margin-top: 22px;
+        padding: 14px;
+        margin-bottom: 74px !important;
+    }
+    #testimonial .testimonial-head h4 {
+        font-size: 36px;
+    }
+    #testimonial .testimonial-item {
+        margin-right: 49px;
+        height: 223px;
+    }
+    #testimonial .testimonial-item .testimonial-img img {
+        width: 114% !important;
+    }
+    #testimonial .testimonial-item .testimonial-img::after {
+        width: 99%;
+        top: 17px;
+        left: 21px;
+    }
+    #testimonial .testimonial-head h4::after {
+        left: 592px;
+        bottom: -3px;
+    }
+    #testimonial .testimonial-item .testimonial-text p {
+        margin-top: 0px;
+        font-size: 14px;
+    }
+    #testimonial .slick-dots {
+        top: 203px;
+    }
+    /*=======================
+    testimonial part ends
+    =========================*/
+
+    /*=======================
+     funfact part starts
+    =========================*/
+    #funfact {
+        padding-bottom: 44px !important;
+        padding-top: 44px;
+    }
+    #funfact .fun-item {
+        padding-top: 27px;
+        padding-bottom: 27px !important;
+        text-align: center;
+    }
+    #funfact .fun-item h4{
+        font-size: 30px;
+    }
+    #funfact .fun-item p{
+        font-size: 16px;
+    }
+    /*=======================
+     funfact  part ends
+    =========================*/
+
+    /*=======================
+     contact part starts
+    =========================*/
+    #contact {
+        padding-bottom: 63px !important;
+    }
+    #contact .contact-head {
+        padding-top: 58px;
+    }
+    #contact .contact-head p {
+        margin-top: 35px;
+        font-size: 17px;
+        margin-bottom: 65px !important;
+        padding: 0 421px;
+    }
+    #contact .contact-head h4 {
+        font-size: 36px;
+    }
+    #contact .contact-head h4::after {
+        left: 610px;
+        bottom: 4px;
+    }
+    #contact .touch-item{
+        padding-left: 50px;
+    }
+    #contact .touch-item::before {
+        width: 403px;
+    }
+    #contact .touch-item input {
+        width: 531px;
+    }
+    #contact .touch-item textarea {
+        width: 531px;
+        height: 115px;
+    }
+    #contact .touch-item button {
+        width: 531px;
+        height: 50px; 
+    }
+    /*=======================
+     contact  part ends
+    =========================*/
+
+    /*=====================
+     footer part starts
+    =======================*/
+    #footer .footer-text p {
+        font-size: 14px;
+        margin-right: 55px;
+    }
+    /*======================
+      footer  part ends
+    ========================*/
+}
+/*===============================
+extra extra large  device ends
+=================================*/
