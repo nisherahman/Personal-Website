@@ -367,6 +367,14 @@ extra small device satrts
     /*======================
       footer  part ends
     ========================*/
+
+    .back-to-top {
+        bottom: 146px;
+        right: 31px;
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+    }
 }
 /*=========================
 extra small device ends
